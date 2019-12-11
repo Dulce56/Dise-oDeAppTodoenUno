@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#00FFFF">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenidos a Dolores Hidalgo"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        app:srcCompat="@drawable/img1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnDolores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dolores Hidalgo"
+        app:layout_constraintTop_toBottomOf="@+id/btnDolores"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnLugares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lugares Turisticos"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btnCom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comentarios"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btnAcer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acerca de..."/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        app:layout_constraintTop_toBottomOf="@+id/btnSalir"/>
+
+</LinearLayout>

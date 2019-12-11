@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.utng.tutorialkotlin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/imag2"
+        android:label="Dolores Hidalgo Pueblo Magico"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Noticias"></activity>
+        <activity android:name=".Acercade" />
+        <activity android:name=".Comentario" />
+        <activity android:name=".Dolores" />
+        <activity android:name=".Lugares" />
+        <activity
+            android:name=".Datos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

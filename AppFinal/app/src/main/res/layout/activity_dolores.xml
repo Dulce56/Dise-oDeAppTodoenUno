@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00FFFF"
+    tools:context=".Dolores">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dolores Hidalgo"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:background="@color/colorPrimaryDark"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/imag3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:fontFamily=""
+        android:text="En el estado de Guanajuato se yergue una pequeña y bella ciudad colonial que hoy es Patrimonio Histórico y que fue la cuna de la gesta patriótica más emblemática de nuestro país: la Independencia."
+        android:textAlignment="inherit"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:fontFamily=""
+        android:text="Se trata del Pueblo Mágico de Dolores Hidalgo, donde cada rincón tiene su historia y sus leyendas; en las haciendas adyacentes todavía se escucha el murmullo conspiratorio de los insurgentes y en las calles siempre suenan las canciones de su hijo pródigo: José Alfredo Jiménez."
+        android:textAlignment="inherit"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:text="Regresar"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
